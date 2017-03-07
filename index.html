@@ -1,25 +1,11 @@
-<!doctype>
+<!doctype html>
 <html lang="sv"> 
-<meta charset="utf-8">
 <head>
-	
-
-</head>
-<title> Håkan Hellström </title>
- <body>
-<h1> Håkan Hellström</h1>
-<p> Här kan du läsa om ställen Håkan sjunger om i sina låttexter.</p>	
-<header>
-	
-	<img src="https://majanygrens.files.wordpress.com/2013/11/hh_2438.jpg" width="800px" height="500px"/>
-</header> 
- <h2> Rubrik</h2>
- <img src="http://mb.cision.com/Public/2982/9635295/afc48b0d52d40180_org.jpg" width="400px" height="250px"/>
- <p> Här står det förmodligen något om Håkan </p>
-<style>
+  <meta charset="utf-8">
+  <title> Håkan Hellström </title>
+  <style>
 
     html {
-
     	background-color: pink;
     }
 	body {
@@ -27,23 +13,59 @@
 		width: 800px;
 		text-align: center;
 		margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        outline:5px solid red;
 
-
+	}
+	nav, header, [role="main"], footer {
+		outline: 1px solid green;
 	}
 
    header {
-   	width: 800px;
-   	height: 600px;
+   	height: 620px;
+   	flex: 0 1 100%;
 
+   }
+   nav {
+   	  flex: 0 0 20%;
+   }
+   [role="main"] {
+   	  flex: 0 2 80%;
    }
 
    h2 {
-   text-align: auto;
+     width: 400px;
+     text-align: left;
+     margin: auto;
   }
-
-
-	
 </style>
+</head>
+<body>
+<header>
+  <h1> Håkan Hellström</h1>
+  <p> Här kan du läsa om ställen Håkan sjunger om i sina låttexter.</p>	
+  <img src="https://majanygrens.files.wordpress.com/2013/11/hh_2438.jpg" width="800" height="500"/>
+</header> 
+<nav>
+<h1>rubrik</h1>
+  <ul>
+    <li>Sida 1</li>
+    <li>Sida 2</li>
+    <li>Sida 3</li>
+  </ul>
+  <h1>rubrik</h1>
+  <ul>
+      <li>Sida 1</li>
+      <li>Sida 2</li>
+      <li>Sida 3</li>
+     
+</nav>
+<div role="main">
+   <h2> Rubrik</h2>
+   <img src="http://mb.cision.com/Public/2982/9635295/afc48b0d52d40180_org.jpg" width="400" height="250"/>
+   <p> Här står det förmodligen något om Håkan </p>
+ </div>
 </body>
 
 
