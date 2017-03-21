@@ -1,0 +1,11 @@
+# List of browsers to be used by tools like cssnano, autoprefixer, etc
+# One common config for all tools
+
+last 2 versions
+> 1%            # Global usage
+> 1% in SV    # Usage in Sweden
+Firefox ESR     # Firefox ´version for big organizations
+not ie <= 9     # Forget about old IE while learning webdev
+
+# Detta fel uppstår om man misnkar den svenska procenten för mycket
+# "BrowserslistError: Unknown version 0 of op_mob"
