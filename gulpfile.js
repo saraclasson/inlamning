@@ -42,7 +42,7 @@ gulp.task("eslint", "Kontroll av JavaScript med ESLint", () =>
 gulp.task("css:lint", "Kontroll av CSS med CSSLint", () =>
     gulp.src(paths.cssdir)
         .pipe(csslint(".csslintrc"))
-        .pipe(csslint.reporter())
+        .pipe(csslint.formatter())
 );
 
 // http://stackoverflow.com/questions/38836082/how-can-i-pipe-the-output-from-gulp-w3c-css-to-the-console

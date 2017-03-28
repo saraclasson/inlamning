@@ -16,6 +16,8 @@
   },
   "homepage": "https://github.com/saraclasson/inlamning#readme",
   "devDependencies": {
+    "css-lint": "^1.0.1",
+    "csslint": "^1.0.5",
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^3.1.1",
     "gulp-cached": "^1.1.1",
@@ -26,6 +28,7 @@
     "gulp-help": "^1.6.1",
     "gulp-html-validator": "0.0.5",
     "gulp-imagemin": "^3.1.1",
+    "gulp-reporter": "^1.6.0",
     "gulp-uglify": "^2.1.0",
     "gulp-util": "^3.0.8",
     "gulp-w3c-css": "^1.0.1"
