@@ -1,30 +1,31 @@
 html {
     background-color: pink;
 }
-	body {
+body {
 		background-color: white;
 		width: 800px;
-		text-align: center;
+		/*! text-align: center; */
 		margin: auto;
         display: flex;
         flex-wrap: wrap;
         outline:5px solid red;
 
-	}
-	nav, header, [role="main"], footer {
+}
+nav, header, [role="main"], footer {
 		outline: 1px solid green;
-	}
+}
 
-   header {
+header {
    	height: 620px;
    	flex: 0 1 100%;
 
-   }
-   nav {
+}
+nav {
    	  flex: 0 0 20%;
-   }
+}
+
    [role="main"] {
-   	  flex: 0 2 80%;
+   	  flex: 0 0 80%;
    }
 
    h2 {
@@ -43,4 +44,11 @@ Regler för startsidan
 
 font-style: italic;
 
+}
+.album {
+   display: flex;
+   width: 60%;
+}
+.album > h2 {
+   margin-bottom: 3em;
 }
