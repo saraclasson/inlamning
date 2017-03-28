@@ -2,53 +2,64 @@ html {
     background-color: pink;
 }
 body {
-		background-color: white;
-		width: 800px;
-		/*! text-align: center; */
-		margin: auto;
-        display: flex;
-        flex-wrap: wrap;
-        outline:5px solid red;
-
+    background-color: white;
+    width: 800px;
+    /*! text-align: center; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    outline: 5px solid red;
 }
-nav, header, [role="main"], footer {
-		outline: 1px solid green;
+nav,
+header,
+[role='main'],
+footer {
+    outline: 1px solid green;
 }
 
 header {
-   	height: 620px;
-   	flex: 0 1 100%;
-
+    height: 620px;
+    flex: 0 1 100%;
 }
 nav {
-   	  flex: 0 0 20%;
+    flex: 0 0 20%;
 }
 
-   [role="main"] {
-   	  flex: 0 0 80%;
-   }
+[role='main'] {
+    flex: 0 0 80%;
+}
 
-   h2 {
-     width: 400px;
-     text-align: left;
-     margin: auto;
-  }
+h2 {
+    width: 400px;
+    text-align: left;
+    margin: auto;
+}
 /*
 Regler för startsidan
 */
 .startpage h2 {
-   color: Black;
+    color: Black;
 }
 
 .kursivtext {
-
-font-style: italic;
-
+    font-style: italic;
 }
 .album {
-   display: flex;
-   width: 60%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .album > h2 {
-   margin-bottom: 3em;
+    margin-bottom: 1em;
+    flex: 0 0 100%;
+    text-align: center;
+}
+.album > img {
+    margin-right: 20px;
+}
+.albuminfo {
+    /* Använd vid behov */
+}
+.albuminfo > p:first-child {
+    /* Linjera i topp med bild */
+    margin: 0 0 1em;
 }
