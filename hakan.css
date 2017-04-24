@@ -72,8 +72,7 @@ Regler för startsidan
 
 .albuminfo {
     /* Använd vid behov */
-    
-
+    max-width: 60%;
 }
 .albuminfo > p:first-child {
     /* Linjera i topp med bild */
