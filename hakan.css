@@ -34,6 +34,19 @@ h2 {
     text-align: left;
     margin: auto;
 }
+
+h3 {
+  font-size: 23px;
+    flex: 0 0 76%;
+    text-align: center;
+}
+
+h4 {
+    font-size: 24px;
+    flex: 0 0 100%;
+    text-align: center;
+
+}
 /*
 Regler för startsidan
 */
@@ -56,10 +69,26 @@ Regler för startsidan
 .album > img {
     margin-right: 20px;
 }
+
 .albuminfo {
     /* Använd vid behov */
+    
+
 }
 .albuminfo > p:first-child {
     /* Linjera i topp med bild */
     margin: 0 0 1em;
+}
+
+.albumright {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.albumright > img {
+  order: 1;
+}
+.albumright > h3 {
+  flex: 0 0 100%;
 }
