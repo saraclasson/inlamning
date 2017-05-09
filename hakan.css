@@ -8,14 +8,10 @@ body {
     margin: auto;
     display: flex;
     flex-wrap: wrap;
-    outline: 5px solid red;
+
 }
-nav,
-header,
-[role='main'],
-footer {
-    outline: 1px solid green;
-}
+
+
 
 header {
     height: 620px;
