@@ -5,5 +5,23 @@ fieldset {
 }
 
 legend {
-	font-size: larger;
+	font-size: 25px;
 }
+
+label {
+	display: inline-block;
+	width: 50px;
+	text-align: right;
+}
+.checkboxradio label {
+	display: inline;
+}
+
+@media screen and (max-width:300px){
+
+	label {
+       
+      display: block; 
+	}
+}
+

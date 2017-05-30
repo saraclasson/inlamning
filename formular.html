@@ -5,22 +5,60 @@
   <title> Formulär</title>
     <link rel="stylesheet" href="formular.css" />
   <h1>Formulär</h1>
+  <fieldset>
+  	<label for="name">Namn:</label>
+    <input type="text" name="namn" id="name">
+</p>
+<p>
+    <label for="mail">Mejl:</label>
+    <input type="email" name="mail" id="mail">
+</p>
+<p>
+    <label for="tel">Tel:</label>
+    <input type="tel" name="tel" id="tel">
+</p>
+</fieldset>
+<fieldset class="checkboxradio">
+  <legend>Intressen:</legend>
   <p>
-  	<label for="uname">Namn:</label>
-    <input type="text" name="namn">
+    <input type="checkbox" name="checkbox" id="intresse1">
+    <label for="intresse1">Ridning</label> 
+  </p>
+  <p>
+    <input type="checkbox" name="checkbox1" id="intresse2"> 
+    <label for="intresse2">Innebandy</label>
+  </p>
+  <p>
+    <input type="checkbox" name="checkbox2" id="intresse3">
+    <label for="intresse3">Spela instrument</label>
+  </p>
+  <p>
+    <input type="checkbox" name="checkbox3" id="intresse4">
+    <label for="intresse4">Matlagning</label>
+  </p>
+</fieldset>
+<p>
+<fieldset class="checkboxradio">
+ <legend>Ålder:</legend>
+ <input type="radio" name="10" id="ålder1">
+<label for="ålder1">10 år</label>
 </p>
 <p>
-    <label for="unmail">Mejl:</label>
-    <input type="e-mail" name="mail">
+ <input type="radio" name="10" id="ålder2">
+ <label for="ålder2">12 år</label>  
+</p>
+</fieldset>
+<p>
+<fieldset>
+ <legend>Kommentar:</legend>
+ <textarea></textarea>
 </p>
 <p>
-    <label for="untel">Tel:</label>
-    <input type="untel" name="tel">
-</p>
-<p>
-<input type="checkbox" name="uncheckbox">
-
-
+ <input type="submit" name="skicka" id="skickaknapp" value="Skicka">
+ <button></button>
+ </p>
+ </fieldset>
+  
 
 
 
